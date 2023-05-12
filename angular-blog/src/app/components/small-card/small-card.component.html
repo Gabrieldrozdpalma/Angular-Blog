@@ -1,14 +1,14 @@
 <div class="container__small-card">
     <div class="container__small-card-content">
         <div class="small-card__picture">
-            <img src="https://mixdeseries.com.br/wp-content/uploads/2023/04/elenco-de-succession-salario.webp   " 
+            <img src="{{photoPicture}} " 
                  alt="" 
                  height="200px"
                  srcset="">
         
         </div>      
         <div class="small-card__title">
-           <h1><a href="#">Veja as novidades do Google I/O 2023</a></h1> 
+           <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1> 
         </div>
 
     </div>

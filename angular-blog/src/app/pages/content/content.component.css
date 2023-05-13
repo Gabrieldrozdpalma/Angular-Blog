@@ -25,5 +25,14 @@
 
 .content__description > p{
     margin-top: 20px;
+    margin-left: 305px;
+    margin-right: 305px;
     color: rgb(202, 193, 193);
+    text-align: justify;
+
+}
+
+.content__description > a{
+    text-align: center;
+    display: block;
 }

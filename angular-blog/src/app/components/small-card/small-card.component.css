@@ -16,11 +16,31 @@
 }
 
 .small-card__title{
-    display: flex;
+    display: block;
     justify-content: center;
-    align-items: center;
+    align-items: justify;
 }
 
 .container__small-card-separator{
-    margin-top: 10px;
+    margin-top: 5px;
+}
+
+.small-card__author > a{
+    justify-content: flex-start;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', sans-serif;
+    display: inline-flex;
+    font-size: smaller;
+    color: rgb(116, 114, 114);
+        
+}
+.small-card__data{
+    justify-content: flex-end;
+    display: inline-flex;
+    font-size: smaller;
+    color: rgb(116, 114, 114);
+}
+.small-card__infos{
+  display: flex;
+  flex-direction: column;
 }

@@ -12,7 +12,7 @@ export class ContentComponent implements OnInit{
 
   photoCover:string=""
   contentTitle:string=""
-  contentDescription:string=""
+  contentDescription:string="BLA BLA BLA BLA"
   private id:string | null ="0"
 
   constructor(
